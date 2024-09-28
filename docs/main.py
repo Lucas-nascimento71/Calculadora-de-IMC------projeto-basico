@@ -4,15 +4,18 @@ print('               Calculo de IMC')
 print('=-=' * 15)
 
 # Entrada de dados
-peso = float(input('Digite seu Peso (Kg): '))
-altura = float(input('Digite sua Altura (m): '))
+try:
+    peso = float(input('Digite seu Peso (Kg): '))
+    altura = float(input('Digite sua Altura (m): '))
+except ValueError:
+    print("Por favor, insira valores numéricos válidos.")
 
-# Calculo IMC e exibição de resultado
+# Calculo do imc: peso dividido pela altura ao quadrado; E exibição de resultado
 imc = peso / (altura ** 2)
 
 # Classificação do IMC
 if imc < 16.9:
-    Classificação = 'Muito abaixo do Peso'
+    Classificação = 'Muito abaixo do Peso'  
 elif 17 <= imc <= 18.4:
     Classificação = 'Abaixo do Peso.'
 elif 18.5 <= imc <= 24.9:
