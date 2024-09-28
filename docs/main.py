@@ -23,7 +23,7 @@ elif 30 <= imc <= 34.9:
     Classificação = 'Obesidade grau 1.'
 elif 35 <= imc <= 40:
     Classificação = 'Obesidade grau 2.'
-elif imc > 40:
+else:
     Classificação = 'Obesidade grau 3 (Obesidade Mórbida).'
     
 # Saída de dados
