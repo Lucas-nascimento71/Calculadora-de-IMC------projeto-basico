@@ -2,9 +2,6 @@ print('=-=' * 15)
 print('               Calculo de IMC')
 print('=-=' * 15)
 
-
-
-
 # Entrada de dados
 peso = float(input('Digite seu Peso (Kg): '))
 altura = float(input('Digite sua Altura (m): '))
