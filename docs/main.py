@@ -1,3 +1,4 @@
+# adicionei linhas delimitadoras
 print('=-=' * 15)
 print('               Calculo de IMC')
 print('=-=' * 15)
@@ -29,6 +30,7 @@ elif imc > 40:
 print(f'\nSeu IMC foi de {imc:.1f}.')
 print(f'Sua classificação foi de {Classificação}')
 
+# adicionei linhas delimitadoras
 print('=-=' * 15)
 print('                    Fim')
 print('=-=' * 15)
