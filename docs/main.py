@@ -2,7 +2,13 @@
 peso = float(input('Digite seu Peso (Kg): '))
 altura = float(input('Digite sua Altura (m): '))
 
-# Calculo IMC
+# Calculo IMC e exibição de resultado
 imc = peso / (altura * altura)
+print(imc)
+
+
+# Classificação do IMC
+
+
 
 
