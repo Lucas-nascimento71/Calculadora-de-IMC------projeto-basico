@@ -1,10 +1,16 @@
+print('=-=' * 15)
+print('               Calculo de IMC')
+print('=-=' * 15)
+
+
+
+
 # Entrada de dados
 peso = float(input('Digite seu Peso (Kg): '))
 altura = float(input('Digite sua Altura (m): '))
 
 # Calculo IMC e exibição de resultado
 imc = peso / (altura ** 2)
-print(f'Seu IMC: {imc:.1f}')
 
 # Classificação do IMC
 if imc < 16.9:
@@ -23,5 +29,9 @@ elif imc > 40:
     Classificação = 'Obesidade grau 3 (Obesidade Mórbida).'
     
 # Saída de dados
-print(f'Seu IMC foi de {imc}.')
-print(f'Sua classificação foi de ')
+print(f'\nSeu IMC foi de {imc:.1f}.')
+print(f'Sua classificação foi de {Classificação}')
+
+print('=-=' * 15)
+print('                    Fim')
+print('=-=' * 15)
