@@ -1,4 +1,4 @@
-# Cálculo de IMC
+# Cálculadora de IMC (Código bem simple, pois sou iniciante na linguagem Python)
 
 ## Descrição
 Este projeto calcula o Índice de Massa Corporal (IMC) com base no peso e altura fornecidos pelo usuário, classificando-o de acordo com as diretrizes de saúde.
@@ -29,5 +29,9 @@ Este projeto está licenciado sob a MIT License - consulte o arquivo LICENSE par
 
 ## Contato
 Lucas do Nascimento Ferreira de Souza - E-mail: lnfsouza@hotmail.com
+                                      - Instagram: @Lucas-nnascimento
+                                      - LinKedln: www.linkedin.com/in/lucas-nascimento-104a44165
+
+
 
 
